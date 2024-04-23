@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>General Information</legend>
+        <label for="arrival">Arrival date:</label>
+        <input type="date" id="arrival" name="arrival"><br>
+        <label for="nights">Nights:</label>
+        <input type="number" id="nights" name="nights"><br>
+        <label for="adults">Adults:</label>
+        <input type="number" id="adults" name="adults" value="1"><br>
+        <label for="children">Children:</label>
+        <input type="number" id="children" name="children" value="0"><br>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Preferences</legend>
+        Room type:
+        <input type="radio" id="Standard" name="roomType" value="Standard" checked></label>
+        <label for="Standard">Standard</label>
+        <input type="radio" id="Business" name="roomType" value="Business"></label>
+        <label for="Business">Business</label>
+        <input type="radio" id="Suite" name="roomType" value="Suite"></label>
+        <label for="Suite">Suite</label><br>
+        Bed type:
+        <input type="radio" id="King" name="roomType" value="King" checked></label>
+        <label for="King">King</label>
+        <input type="radio" id="Double Double" name="roomType" value="Double Double"></label>
+        <label for="Double Double">Double Double</label><br>
+        <input type="checkbox" name="Languages1" value="En">Smoking
+    </fieldset>
+    <fieldset>
+        <legend>Contact Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+          </fieldset>
+          <button type="submit">Submit Reservation</button>
+</body>
+</html>
