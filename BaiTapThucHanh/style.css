@@ -1,0 +1,104 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/pw/AP1GczPO-85xCMbNAMLGpsNAVizjk6szXpSZlw_rU5C_emucm4MskfRAIlytTSiGxry-TxG7fQtFAVqf3brpxqxQDbuM4f65dXwbBzOHSgE2uIezUADvzzqmrKPpgqEcuQFlH99KscUz0XUTcdAVDKVGvTGy6UC7X1qEetNnW4OnFtVVWgiArcsukZqf7xFnnBHjU1JJ5Uqp9iF7G0j0p0i5pYI3hJkX6enEhi0eh_U-8EwGc_OJIrOQG53OvFj5LhIj67VCc04MggHZFU4yasHfRVhgT8NWExB6vDYAe4ScMPIJVgs8lfN7pZ57SB_s3UnRRI-CI0k1UWaGJ-ZacxFjXlfkUEpq3niSAP6CeUEi_c8HfrpnV6AfdRRElFty2hb5s6Hw1V8ez5d62QTsLLw7NuKutpJyJtIVBo5SUFyRsO7PFgKpqVKLHHHt-bLFVOtN1DiOyNCZtCtb7EwHsiSYc8LCbiJMChol0LZ-cr4JEXHNcw22d7uh1JGoVwxefCehZ9QqD42quf7UbwtTUuIVk1AYcN0nymJtEegc9mqZl_IoO3-eeiHjy1ABkRnYNmwdq_lKIzrbhMJK8TDoKaqlHxHsGxDMsEDkCpw6D3ycILsq9rUhG5rhq-EwRyOFntENxKIrdyUi7Vr5AeHxKi_CPw2Rrnw8hzNN7KppXwr2bm1Hf_ygaPorH-x0WFgimT0N5kmKcFQLTZ2MK6fc5DlJU2_vm7xnKEgp6P91skSu5JdP-7gcAT336Ph2onZXGBD50xtoFdjgZ5YSiEcteBc84PVQhseDbDFYsQUc5Rf39t8WueeASXUC_UJLGxAzyoxD4ASJWNxK6_TC9xc6zdRu1fXHYZRm8l1W3jZ3aNmK7v3cM2CegXMuZq2cl4QW8TArTcfrAYvoSilLIikSWhp0i6itbHo=w968-h645-s-no-gm?authuser=0);
+    font-family: sans-serif;
+    padding: 20px;
+}
+    h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    
+    }
+    
+    h2 {
+    font-size: 30px;
+    }
+    .established {
+    font-style: italic;
+    
+    }
+    h3 {
+    font-size: 30px;
+    }
+    .established {
+    font-style: italic;
+        
+        }
+    
+    h1, h2, h3, p {
+    text-align: center;
+    
+    }
+    
+    .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-Left: auto;
+    margin-right: auto;
+    padding: 20px;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -25px;
+        
+        }
+        
+        hr {
+        height: 2px;
+        background-color: brown;
+        border-color: brown;
+        }
+        .bottom-line {
+        margin-top: 25px;
+        
+        }
+        
+        h1, h2 {
+        font-family: Impact, serif;
+        
+        }
+        
+        .item p {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        }
+        .flavor, .dessert {
+            text-align: left;
+            width: 75%;
+            
+            }
+            .price {
+                text-align: right;
+                width: 25%;
+            } 
+                /* FOOTER*/
+                
+            footer {
+            font-size: 14px;
+   
+                }
+                
+                .address {
+                margin-bottom: 5px;
+                
+                }
+                
+                a{
+                    color: black;
+                
+                }
+                
+                a:visited {
+                color: black;
+                }
+                a:hover {
+                color: brown;
+                
+                }
+                
+                a:active {
+                color: brown;}
